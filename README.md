@@ -109,25 +109,25 @@ Para mover arquivos de banco com segurança:
 
 ### 🏗️ 1. Criação do Banco de Dados
 
-![Execução da criação do banco](imagens/execucao_criacao_banco.png)
+![Execução da criação do banco](imagens/print_criacao_banco.png)
 
 > 🧱 _Script criando o banco de dados com parâmetros personalizados de tamanho e crescimento._
 
 ### 📈 2. Aumento e Adição de Arquivos
 
-![Execução do aumento de arquivo](imagens/execucao_aumentar_arquivo.png)
+![Execução do aumento de arquivo](imagens/print_aumentar_arquivo.png)
 
 > 📊 _Script adicionando novos arquivos .NDF e aumentando o tamanho do banco._
 
 ### 🧹 3. Redução e Liberação de Espaço
 
-![Execução da redução de arquivo](imagens/execucao_reduzir_arquivo.png)
+![Execução da redução de arquivo](imagens/print_shrink.png)
 
 > ♻️ _Redução de tamanho de arquivos com `DBCC SHRINKFILE` e liberação de espaço físico._
 
 ### 📂 4. Movimentação Física de Arquivos
 
-![Execução da movimentação de arquivos](imagens/execucao_mover_arquivo.png)
+![Execução da movimentação de arquivos](imagens/print_mover_arquivo.png)
 
 > 🚚 _Script realizando a movimentação dos arquivos `.mdf` e `.ldf` para novos diretórios._
 
